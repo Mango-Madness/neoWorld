@@ -2,13 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
-             x:Class="App1.MainPage">
-       
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+             x:Class="App1.MainPage"
+             BackgroundColor="#FA00FF">
+    <ScrollView>
+        <StackLayout>
+            <Button Text="OLDEST"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="End"
+                    BackgroundColor="White"
+                    TextColor="#FA00FF"
+                    FontSize="Medium"
+                    BorderRadius="0"
+                    HeightRequest="50"/>
+            <Button Text="SHARE SOMETHING NEO" 
+                    HorizontalOptions="Fill"
+                    VerticalOptions="EndAndExpand"
+                    BackgroundColor="White"
+                    TextColor="Transparent"
+                    FontSize="Large"
+                    BorderRadius="10"
+                    HeightRequest="75"/>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
