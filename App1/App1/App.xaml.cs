@@ -11,7 +11,7 @@ namespace App1
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new newset_Oldest();
 		}
 
 		protected override void OnStart ()
