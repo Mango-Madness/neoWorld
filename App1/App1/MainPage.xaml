@@ -5,24 +5,26 @@
              x:Class="App1.MainPage"
              BackgroundColor="#FA00FF">
     <ScrollView>
-        <StackLayout>
+        <Grid>
             <Button Text="OLDEST"
                     HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="End"
+                    VerticalOptions="Start"
                     BackgroundColor="White"
                     TextColor="#FA00FF"
-                    FontSize="Medium"
+                    FontSize="17.5"
                     BorderRadius="0"
                     HeightRequest="50"/>
-            <Button Text="SHARE SOMETHING NEO" 
-                    HorizontalOptions="Fill"
-                    VerticalOptions="EndAndExpand"
-                    BackgroundColor="White"
-                    TextColor="Transparent"
-                    FontSize="Large"
-                    BorderRadius="10"
-                    HeightRequest="75"/>
-        </StackLayout>
+            <Image Source="C:\Users\Karim Hackmann\source\repos\Neuer Ordner\App1\App1.Android\Resources\drawable\buttonIcon.png"
+                   VerticalOptions="End"
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="75"
+                   WidthRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                            Tapped="OnImageNameTapped"
+                            NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
     </ScrollView>
-
 </ContentPage>
