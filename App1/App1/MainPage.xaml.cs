@@ -70,17 +70,21 @@ namespace App1
 
             // Build the page.
             Title = "ScrollBar Demo";
-            var final = new StackLayout
+            var final = new Grid
             {
-                Children =
+                RowDefinitions =
                 {
-                    scrollView,
-                    top
-                    
-                }
+                    new RowDefinition { Height = new GridLength(10, GridUnitType.Star) },
+                    new RowDefinition { Height = new GridLength(100, GridUnitType.Star) },
+                },
+                ColumnDefinitions =
+                {
+                    new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) },
+                },
             };
-            final.Padding = 0;
-
+            final.Children.Add(scrollView, left: 0, top: 0);
+            final.Children.Add(top, left: 0, top: 0 );
+            Grid.SetRowSpan(scrollView, 2);
             Content = final;
         }
         Label zeit;
