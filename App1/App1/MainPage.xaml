@@ -6,22 +6,6 @@
              BackgroundColor="#FA00FF">
     <ScrollView>
         <StackLayout>
-           <!-- <Button Text="OLDEST"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="End"
-                    BackgroundColor="White"
-                    TextColor="#FA00FF"
-                    FontSize="Medium"
-                    BorderRadius="0"
-                    HeightRequest="50"/>
-            <Button Text="NEWEST"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="End"
-                    BackgroundColor="White"
-                    TextColor="#FA00FF"
-                    FontSize="Medium"
-                    BorderRadius="0"
-                    HeightRequest="50"/>-->
             <Button Text="SHARE SOMETHING NEO" 
                     HorizontalOptions="Fill"
                     VerticalOptions="EndAndExpand"
