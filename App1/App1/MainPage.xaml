@@ -23,7 +23,7 @@
                     <TapGestureRecognizer
                             Tapped="OnImageNameTapped"
                             NumberOfTapsRequired="1"/>
-                </Image.GestureRecognizers>
+                </Image.GestureRecognizers>  
             </Image>
         </Grid>
     </ScrollView>
