@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Content.Res;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace App1
 
 btnNeo = new Button
 {
-    Image = C:\Users\Karim Hackmann\source\repos\Neuer Ordner\App1\App1.Android\Resources\drawable\buttonIcon.png
+    Image = ImageSource.FromFile("buttonIcon.png"),
     BackColor = Color.Transparent;
 }
 private void btnNeo_MouseEnter(object sender, EventArgs e)
