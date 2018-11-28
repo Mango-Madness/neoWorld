@@ -16,12 +16,18 @@ namespace App1
     }
 }
 
-btnNeo = new Button
+View CreateButton(string text)
 {
-    Image = C:\Users\Karim Hackmann\source\repos\Neuer Ordner\App1\App1.Android\Resources\drawable\buttonIcon.png
-    BackColor = Color.Transparent;
-}
-private void btnNeo_MouseEnter(object sender, EventArgs e)
-{
-    btnNeo.Image = picMouseOver;
+
+    var btnNeo = new Button
+
+    {
+        Source = ImageSource.FromFile("C:\Users\Karim Hackmann\source\repos\Neuer Ordner\App1\App1.Android\Resources\drawable\buttonIcon.png"),
+        Aspect = Aspect.AspectFill
+    };
+
+    btnNeo.Clicked += (sender, args);
+
+    return btnNeo;
+
 }
