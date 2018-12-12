@@ -22,7 +22,7 @@ View CreateButton(string text)
     var btnNeo = new Button
 
     {
-        Source = ImageSource.FromFile("C:\Users\Karim Hackmann\source\repos\Neuer Ordner\App1\App1.Android\Resources\drawable\buttonIcon.png"),
+        Source = ImageSource.FromFile("buttonIcon.png"),
         Aspect = Aspect.AspectFill
     };
 
