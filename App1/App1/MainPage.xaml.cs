@@ -17,12 +17,19 @@ namespace App1
     }
 }
 
-btnNeo = new Button
+View CreateButton(string text)
 {
-    Image = ImageSource.FromFile("buttonIcon.png"),
-    BackColor = Color.Transparent;
-}
-private void btnNeo_MouseEnter(object sender, EventArgs e)
-{
-    btnNeo.Image = picMouseOver;
+
+
+    var btnNeo = new Button
+
+    {
+        Source = ImageSource.FromFile("buttonIcon.png"),
+        Aspect = Aspect.AspectFill
+    };
+
+    btnNeo.Clicked += (sender, args);
+
+    return btnNeo;
+
 }
