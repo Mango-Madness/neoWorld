@@ -22,8 +22,8 @@
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                             Tapped="OnImageNameTapped"
-                            NumberOfTapsRequired="1"/>
-                </Image.GestureRecognizers>
+                 2          NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>  
             </Image>
         </Grid>
     </ScrollView>
