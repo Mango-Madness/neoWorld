@@ -22,7 +22,7 @@
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                             Tapped="OnImageNameTapped"
-                 2          NumberOfTapsRequired="1"/>
+                            NumberOfTapsRequired="1"/>
                 </Image.GestureRecognizers>  
             </Image>
         </Grid>
